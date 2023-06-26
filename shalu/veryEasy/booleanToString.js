@@ -6,3 +6,6 @@ return flag.toString();
 const checkResult = booleanToString(22);
 console.log("Result ::>", typeof(checkResult), checkResult);
 // console.log(booleanToString(22));
+
+
+solvethis("6+9*2");

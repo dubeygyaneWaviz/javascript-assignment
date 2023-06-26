@@ -6,7 +6,6 @@ function equalityCheck (a,b){
     }else{
         console.log("the type and value are not equal",false);
     }
-    // console.log(typeof(a) + "Type of a");
 }
 equalityCheck(1,"000000001");
 
