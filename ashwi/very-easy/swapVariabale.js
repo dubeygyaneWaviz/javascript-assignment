@@ -3,7 +3,7 @@
 
 function swapVariable(a, b) {
 
-    console.log("a", a , "b", b);
+    // console.log("a", a , "b", b);
     
     [a, b] = [b, a]
     
