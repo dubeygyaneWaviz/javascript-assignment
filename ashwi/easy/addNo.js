@@ -4,6 +4,7 @@ function addNumber(num){
     for (let i=1; i<=num; i++){
        //sum+=i; We can use this statement also
        sum=sum+i;
+       console.log("for current value of i " +i+ " sum is ", sum);
 
     }
     return sum;
