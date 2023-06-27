@@ -3,4 +3,4 @@ function mathHouse (a){
     console.log(houseNum);
 
 }
-mathHouse(4);
+mathHouse(87);
