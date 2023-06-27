@@ -2,6 +2,7 @@
 // An arrow function is constructed like so:
 
 const arrowFunction = (arg) => {
+    // console.log("Arg :: ", arg);
     return arg;
 }
 console.log(arrowFunction("5"));

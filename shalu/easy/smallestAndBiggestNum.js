@@ -4,6 +4,7 @@ function minMax(numbers) {
   if (numbers.length === 0) {
     return [];
   }
+  console.log("  :: ", numbers.length);
 
   // Initialize variables for minimum and maximum numbers
   let min = numbers[0];
@@ -21,6 +22,7 @@ function minMax(numbers) {
     if (numbers[i] > max) {
       max = numbers[i];
     }
+
   }
 
   // Return the minimum and maximum numbers as an array
