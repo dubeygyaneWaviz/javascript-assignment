@@ -7,7 +7,7 @@
 // What have you learned so far that will permit you to do two different checks (value and type) with a single statement?
 // Implement a function that returns true if the parameters are equal, and false if they are not.
 function equalityCheck (a,b){
-    // console.log(" A & B ", a,b);
+    console.log(" Before equality check A & B ", a,b);
     if ( a === b){
         console.log("the type and value are equal",true);
     }else if (typeof(a) != typeof(b) && a == b) {
@@ -16,5 +16,5 @@ function equalityCheck (a,b){
         console.log("the type and value are not equal",false);
     }
 }
-equalityCheck(1,"000000001");
+equalityCheck(1,1);
 

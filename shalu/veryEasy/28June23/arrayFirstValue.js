@@ -3,5 +3,6 @@ function arrayFirstValue (arr){
     console.log("Arr :: ", arr);
     var firstNum = arr[0];
     console.log("firstNum  ", firstNum);
+    return firstNum ;
 }
-arrayFirstValue([1,2,3]);
+console.log(arrayFirstValue([1,2,3]));

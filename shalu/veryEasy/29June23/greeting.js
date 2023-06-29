@@ -1,6 +1,6 @@
 // Emmy has written a function that returns a greeting to users. However, she's in love with Ram, and would like to greet him slightly differently. She added a special case in her function, but she made a mistake.
 function greeting(name){
-    // console.log("Greeting Name", name);
+    console.log(" before Greeting Name", name);
     if(name === "Ram"){
         return "Hello, my love!";
     }else{
