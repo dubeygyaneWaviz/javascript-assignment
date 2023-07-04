@@ -4,11 +4,11 @@
 
 function concatenateName (name){
 
-    // console.log("name",name);
+     console.log(" before name",name);
 
     let result = name + "Edabit";
     
-    console.log("result", result)
+    console.log("after name", result);
 
 }
 concatenateName ("Matt");

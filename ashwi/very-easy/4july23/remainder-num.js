@@ -2,11 +2,11 @@
 
 function remainderNum(num1,num2){
 
-    // console.log("remaindernum", num1,num2);
+    console.log("remaindernum", num1,num2);
 
     var remainder = num1%num2;
 
-    // console.log("Remainder",num1%num2);
+    console.log("Remainder",num1%num2);
 
     var d= parseInt(num1/num2);
 

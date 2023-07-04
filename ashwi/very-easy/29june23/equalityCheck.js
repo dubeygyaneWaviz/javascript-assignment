@@ -12,7 +12,7 @@
 
 
 function equalityCheck (a,b){
-    // console.log("equality", a,b);
+    console.log("equality", a,b);
     if (a === b){
         console.log("the type and value are equal",true);
        
